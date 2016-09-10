@@ -1,0 +1,33 @@
+html { height: 100%; }
+
+body { margin-top: 0px; height: 100%; }
+
+.navbar { margin-bottom: 0px; border: 0px; }
+
+.navbar-brand { margin-right: 30px; }
+
+.sidebar-toggle { display: inherit !important; }
+
+.menu-download { padding: 6px; }
+
+#navbar .btn-group { margin-top: 10px; }
+
+.navbar-with-sidebar { border-radius: 0; }
+
+.sidebar-panel { margin: 20px; }
+
+.sidebar-row { padding-bottom: 10px; }
+
+.row-offcanvas { position: relative; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; transition: all 0.25s ease-out; height: 100%; overflow-x: hidden; }
+
+.row-offcanvas.active { overflow-x: visible; }
+
+.row-offcanvas-right .sidebar-offcanvas { right: -280px; }
+
+.row-offcanvas-left .sidebar-offcanvas { left: -280px; }
+
+.row-offcanvas-right.active { right: 280px; }
+
+.row-offcanvas-left.active { left: 280px; }
+
+.sidebar-offcanvas { height: 100%; position: absolute; margin: 0px; top: 0; width: 280px; overflow-y: auto; background-color: #e7e7e7; padding-right: 0px; padding-top: 0px; }
