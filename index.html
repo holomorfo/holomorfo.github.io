@@ -1,49 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<!-- your webpage info goes here -->
+  <title>Realtime communication with WebRTC</title>
 
-    <title>Vamo a programarlo</title>
-	
-	<meta name="author" content="your name" />
-	<meta name="description" content="" />
+  <link rel="stylesheet" href="/css/main.css" />
 
-<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	
 </head>
+
 <body>
 
-<!-- webpage content goes here in the body -->
+  <h1>HOLOMORFO Realtime communication with WebRTC</h1>
 
-	<div id="page">
-		<div id="logo">
-			<h1>Vamo a programarlo...</h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="#/home.html">Home</a></li>
-				<li><a href="#/about.html">About</a></li>
-				<li><a href="#/contact.html">Contact</a></li>
-			</ul>	
-		</div>
-		<div id="content">
-			<h2>Home</h2>
-			<p>
-				Aqui pueden escribir todo el contenido de su página.
-			</p>
-			<p> 
-				Segundo parrafo de ejemplo.
-			</p>
-		</div>
-		<div id="footer">
-			<p>
-				Webpage made by https://www.codecademy.com/courses/my-first-webpage/0/1
-			</p>
-		</div>
-	</div>
-	<img src="https://creativecommons.org/images/deed/cc-logo.jpg">
+  <div id="videos">
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
 
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/lib/adapter.js"></script>
+  <script src="js/main.js"></script>
+  
 </body>
+
 </html>
