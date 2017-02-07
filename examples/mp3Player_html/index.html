@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<script src="js/p5.js"></script>
+<script src="js/p5.sound.js"></script>
+<script src="js/p5.dom.js"></script>
+<script src="js/script.js"></script>
+
+
+<html>
+<body>
+
+<p>Select a new file from the list.</p>
+
+<select id="mySelect" onchange="myFunction()">
+  <option value="Song 1">File 1</option>
+  <option value="Song 2">File 2</option>
+</select>
+
+<p>When you select a new file, a function is triggered in script.js which outputs the value of the selected car.</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    console.log("HTML selected "+x);
+    // You can call functions in other scripts just by naming them.
+    mySelectEvent(x);
+}
+</script>
+
+</body>
+</html>
