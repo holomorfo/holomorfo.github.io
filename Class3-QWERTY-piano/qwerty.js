@@ -8,6 +8,7 @@ var modMinDepth = -150;
 
 function setup(){
     console.log("Setup");
+    console.log("prueba cambios");
     // Carrier
     osc = new p5.Oscillator('sine');
     osc.amp(0); // set amplitude
